@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: seashell;
+    background-color: black;
     background-image: url(pics/selfie-ny.jpg);
     background-size: 1100px;
     background-position-x: center;
@@ -11,21 +11,21 @@ body {
 
 header {
     display: flex;
-    align-items: center;
     color: rgb(211, 18, 179);
-    justify-content: center;
     width: 100%;
 }
 
 .navbar {
-    overflow: hidden;
+    display: flex;
+    position: fixed;
+    align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 40px;
   background-color: black;
-  top: 0; 
-  width: 81%;
-  position: fixed;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  border: solid 2px rgb(211, 18, 179);
 }
 
 .navbar a {
@@ -33,6 +33,7 @@ header {
     padding: 14px 16px;
     text-decoration: none;
     width: 100%;
+    margin: 150px;
   }
 
 #container {
@@ -54,21 +55,22 @@ header {
 }
 
 p {
-    color: rgb(211, 18, 179);
+    color: whitesmoke;
     padding: 10px;
     margin: 10px;
+
 }
 
 h1 {
     display: flex;
     align-items: center;
-    color: rgb(211, 18, 179);
+    color: whitesmoke;
     justify-content: center;
     width: 100%;
 }
 
 h3 {
-    color: rgb(211, 18, 179);
+    color: whitesmoke;
     padding: 3px;
     margin: 3px;
     text-decoration: underline;
@@ -82,6 +84,8 @@ h3 {
   background-color: black;
   text-align: center;
   text-decoration: none;
+  padding: 8px;
+  border: solid 2px rgb(211, 18, 179);
 }
 .footer a {
     color: rgb(211, 18, 179);

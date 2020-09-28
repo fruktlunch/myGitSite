@@ -5,6 +5,7 @@ body {
     background-size: 1100px;
     background-position-x: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: 110px;
 }
 
@@ -19,9 +20,9 @@ header {
 .navbar {
     overflow: hidden;
   background-color: black;
-  position: fixed; 
   top: 0; 
   width: 81%;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,6 +32,7 @@ header {
     color: rgb(211, 18, 179);
     padding: 14px 16px;
     text-decoration: none;
+    width: 100%;
   }
 
 #container {
@@ -40,17 +42,29 @@ header {
 .aside-1 {
     width: 20%;
     border: solid 1px rgb(211, 18, 179);
+    padding: 10px;
+    margin: 10px;
 }
 
 .aside-2 {
     width: 20%;
     border: solid 1px rgb(211, 18, 179);
+    padding: 10px;
+    margin: 10px;
 }
 
 p {
     color: rgb(211, 18, 179);
-    padding: 3px;
-    margin: 3px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    color: rgb(211, 18, 179);
+    justify-content: center;
+    width: 100%;
 }
 
 h3 {

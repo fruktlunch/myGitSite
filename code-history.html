@@ -454,6 +454,79 @@ To https://github.com/fruktlunch/myGitSite.git
    1d10ec6..b549133  master -> master
 
 C:\Users\Simon\Documents\Coding\myGitSite>
+
+Microsoft Windows [Version 10.0.18362.1082]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Simon>cd Documents
+
+C:\Users\Simon\Documents>cd COding
+
+C:\Users\Simon\Documents\Coding>cd myGitSite
+
+C:\Users\Simon\Documents\Coding\myGitSite>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\Simon\Documents\Coding\myGitSite>git pull
+remote: Enumerating objects: 14, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 8 (delta 4), reused 8 (delta 4), pack-reused 0
+Unpacking objects: 100% (8/8), 3.77 KiB | 38.00 KiB/s, done.
+From https://github.com/fruktlunch/myGitSite
+   b549133..fd95803  master     -> origin/master
+Updating b549133..fd95803
+Fast-forward
+ code-history.css  |  72 ++++++++++++++++++++++++++++++----------------
+ code-history.html |  83 +++++++++++++++++++++++++++++++++++++++++++++++-------
+ index.html        |  56 +++++++++++++++++++++++++-----------
+ pics/testlogo.png | Bin 0 -> 933 bytes
+ style.css         |  40 +++++++++++++++++---------
+ 5 files changed, 185 insertions(+), 66 deletions(-)
+ create mode 100644 pics/testlogo.png
+
+C:\Users\Simon\Documents\Coding\myGitSite>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   code-history.css
+        modified:   code-history.html
+        modified:   index.html
+        modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Simon\Documents\Coding\myGitSite>git add -A
+
+C:\Users\Simon\Documents\Coding\myGitSite>git commit -m "added mobilefriendly code, added 1 item to navbar (who is now display: table-cell"
+[master 17abe78] added mobilefriendly code, added 1 item to navbar (who is now display: table-cell
+ 4 files changed, 96 insertions(+), 71 deletions(-)
+
+C:\Users\Simon\Documents\Coding\myGitSite>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\Simon\Documents\Coding\myGitSite>git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.76 KiB | 900.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/fruktlunch/myGitSite.git
+   fd95803..17abe78  master -> master
+
+C:\Users\Simon\Documents\Coding\myGitSite>
           </p>
           </pre>
 

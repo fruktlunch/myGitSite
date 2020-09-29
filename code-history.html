@@ -10,21 +10,28 @@
 <!--body-->
 <body>
 
-    <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="#">About</a>
-        <a href="code-history.html">Code</a>
-    </nav>
+  <div>
+    <header>
+           <!--<img class="logo" src="pics/testlogo.png" alt="Logo">-->
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="code-history.html">Code</a></li>
+                </ul>            
+            </nav>
+      </header>
+    </div>
 
     <!-- The video -->
 <video autoplay muted loop id="myVideo">
   <source src="vids/matrix-rain.mp4" type="video/mp4">
 </video>
     
-    <header>
-      <h1>Log history</h1>
-    </header>
-    <div class="log-history">
+<h1>Log history</h1>
+
+    <div class="container">
+
       <pre> 
          <p> Microsoft Windows [Version 10.0.18362.1082]
             (c) 2019 Microsoft Corporation. All rights reserved.
@@ -407,12 +414,68 @@ To https://github.com/fruktlunch/myGitSite.git
    1229c37..1d10ec6  master -> master
 
 C:\Users\Simon\Documents\Coding\myGitSite>
+
+Microsoft Windows [Version 10.0.18362.1082]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Simon>cd DOcuments
+
+C:\Users\Simon\Documents>cd Coding
+
+C:\Users\Simon\Documents\Coding>cd myGitSite
+
+C:\Users\Simon\Documents\Coding\myGitSite>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   code-history.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Simon\Documents\Coding\myGitSite>git add -A
+
+C:\Users\Simon\Documents\Coding\myGitSite>git commit -m "more coding story"
+[master b549133] more coding story
+ 1 file changed, 56 insertions(+)
+
+C:\Users\Simon\Documents\Coding\myGitSite>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 745 bytes | 745.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/fruktlunch/myGitSite.git
+   1d10ec6..b549133  master -> master
+
+C:\Users\Simon\Documents\Coding\myGitSite>
           </p>
           </pre>
+
+          <aside class="aside-2">
+
+            <h1>28:e September</h1>
+
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, nulla, totam harum voluptate dignissimos laudantium at consequatur impedit architecto dolore ut eos accusantium! Ipsa obcaecati quis temporibus eum officiis excepturi.</p>
+
+            <h1>29:e September</h1>
+
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae repellendus similique quidem quis hic quo, quisquam iure veniam architecto distinctio accusantium suscipit sapiente necessitatibus repudiandae dolores doloribus natus illo sunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae accusamus adipisci commodi repudiandae aliquid eos voluptatibus excepturi velit odit, aperiam asperiores neque explicabo sint nesciunt esse assumenda provident, nisi vero.</p>
+
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta sunt laudantium reiciendis odio. Nihil temporibus, corrupti consequuntur ab maiores enim quibusdam perferendis minima tempora assumenda harum doloribus debitis veritatis officiis!
+
+              </p>
+      
+          </aside>
+
     </div>
 
     <!--footer-->
-    <footer class="footer">
+    <footer>
       <a href="#">Contact</a>
   </footer>
     

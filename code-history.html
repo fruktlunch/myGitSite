@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code-history</title>
+    <link rel="stylesheet" href="code-history.css">
+</head>
+
+<!--body-->
+<body>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="#">About</a>
+        <a href="code-history.html">Code</a>
+    </nav>
+
+    <h1>Log history</h1>
+
+    <div class="log-history">
+        <p>Microsoft Windows [Version 10.0.18362.1082]
+            (c) 2019 Microsoft Corporation. All rights reserved.
+            
+            C:\Users\Simon>cd documents
+            
+            C:\Users\Simon\Documents>cd Coding
+            
+            C:\Users\Simon\Documents\Coding>git clone https://github.com/fruktlunch/myGitSite.git
+            Cloning into 'myGitSite'...
+            remote: Enumerating objects: 9, done.
+            remote: Counting objects: 100% (9/9), done.
+            remote: Compressing objects: 100% (6/6), done.
+            remote: Total 9 (delta 1), reused 6 (delta 1), pack-reused 0
+            Unpacking objects: 100% (9/9), 1.50 KiB | 8.00 KiB/s, done.
+            
+            C:\Users\Simon\Documents\Coding>git status
+            fatal: not a git repository (or any of the parent directories): .git
+            
+            C:\Users\Simon\Documents\Coding>cd myGitSite
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is up to date with 'origin/master'.
+            
+            Untracked files:
+              (use "git add <file>..." to include in what will be committed)
+                    style.css
+            
+            nothing added to commit but untracked files present (use "git add" to track)
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git add style.css
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is up to date with 'origin/master'.
+            
+            Changes to be committed:
+              (use "git restore --staged <file>..." to unstage)
+                    new file:   style.css
+            
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git commit -m "added style.css"
+            [master f0d6a38] added style.css
+             1 file changed, 0 insertions(+), 0 deletions(-)
+             create mode 100644 style.css
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is ahead of 'origin/master' by 1 commit.
+              (use "git push" to publish your local commits)
+            
+            nothing to commit, working tree clean
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git push
+            Enumerating objects: 4, done.
+            Counting objects: 100% (4/4), done.
+            Delta compression using up to 4 threads
+            Compressing objects: 100% (2/2), done.
+            Writing objects: 100% (3/3), 326 bytes | 163.00 KiB/s, done.
+            Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+            To https://github.com/fruktlunch/myGitSite.git
+               34e6d8f..f0d6a38  master -> master
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is up to date with 'origin/master'.
+            
+            nothing to commit, working tree clean
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is up to date with 'origin/master'.
+            
+            Changes not staged for commit:
+              (use "git add <file>..." to update what will be committed)
+              (use "git restore <file>..." to discard changes in working directory)
+                    modified:   index.html
+                    modified:   style.css
+            
+            no changes added to commit (use "git add" and/or "git commit -a")
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git add -A
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is up to date with 'origin/master'.
+            
+            Changes to be committed:
+              (use "git restore --staged <file>..." to unstage)
+                    modified:   index.html
+                    modified:   style.css
+            
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git commit -m "linked stylesheet to index"
+            [master bbfedeb] linked stylesheet to index
+             2 files changed, 13 insertions(+)
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is ahead of 'origin/master' by 1 commit.
+              (use "git push" to publish your local commits)
+            
+            nothing to commit, working tree clean
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git push
+            Enumerating objects: 7, done.
+            Counting objects: 100% (7/7), done.
+            Delta compression using up to 4 threads
+            Compressing objects: 100% (4/4), done.
+            Writing objects: 100% (4/4), 522 bytes | 261.00 KiB/s, done.
+            Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+            remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+            To https://github.com/fruktlunch/myGitSite.git
+               f0d6a38..bbfedeb  master -> master
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is up to date with 'origin/master'.
+            
+            Changes not staged for commit:
+              (use "git add <file>..." to update what will be committed)
+              (use "git restore <file>..." to discard changes in working directory)
+                    modified:   index.html
+                    modified:   style.css
+            
+            Untracked files:
+              (use "git add <file>..." to include in what will be committed)
+                    pics/
+            
+            no changes added to commit (use "git add" and/or "git commit -a")
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git add-A
+            git: 'add-A' is not a git command. See 'git --help'.
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is up to date with 'origin/master'.
+            
+            Changes not staged for commit:
+              (use "git add <file>..." to update what will be committed)
+              (use "git restore <file>..." to discard changes in working directory)
+                    modified:   index.html
+                    modified:   style.css
+            
+            Untracked files:
+              (use "git add <file>..." to include in what will be committed)
+                    pics/
+            
+            no changes added to commit (use "git add" and/or "git commit -a")
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is up to date with 'origin/master'.
+            
+            Changes not staged for commit:
+              (use "git add <file>..." to update what will be committed)
+              (use "git restore <file>..." to discard changes in working directory)
+                    modified:   index.html
+                    modified:   style.css
+            
+            Untracked files:
+              (use "git add <file>..." to include in what will be committed)
+                    pics/
+            
+            no changes added to commit (use "git add" and/or "git commit -a")
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git add-A
+            git: 'add-A' is not a git command. See 'git --help'.
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git add -A
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is up to date with 'origin/master'.
+            
+            Changes to be committed:
+              (use "git restore --staged <file>..." to unstage)
+                    modified:   index.html
+                    new file:   pics/selfie-ny.jpg
+                    modified:   style.css
+            
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git commit "added gb-pic, styling and more elements
+            error: pathspec 'added gb-pic, styling and more elements' did not match any file(s) known to git
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is up to date with 'origin/master'.
+            
+            Changes to be committed:
+              (use "git restore --staged <file>..." to unstage)
+                    modified:   index.html
+                    new file:   pics/selfie-ny.jpg
+                    modified:   style.css
+            
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git push
+            Everything up-to-date
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is up to date with 'origin/master'.
+            
+            Changes to be committed:
+              (use "git restore --staged <file>..." to unstage)
+                    modified:   index.html
+                    new file:   pics/selfie-ny.jpg
+                    modified:   style.css
+            
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git commit -m "added bg-pic, styling and more elements
+            [master a0b65e5] added bg-pic, styling and more elements
+             3 files changed, 97 insertions(+), 9 deletions(-)
+             create mode 100644 pics/selfie-ny.jpg
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is ahead of 'origin/master' by 1 commit.
+              (use "git push" to publish your local commits)
+            
+            nothing to commit, working tree clean
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git push
+            Enumerating objects: 9, done.
+            Counting objects: 100% (9/9), done.
+            Delta compression using up to 4 threads
+            Compressing objects: 100% (5/5), done.
+            Writing objects: 100% (6/6), 259.78 KiB | 19.98 MiB/s, done.
+            Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+            To https://github.com/fruktlunch/myGitSite.git
+               bbfedeb..a0b65e5  master -> master
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is up to date with 'origin/master'.
+            
+            Changes not staged for commit:
+              (use "git add <file>..." to update what will be committed)
+              (use "git restore <file>..." to discard changes in working directory)
+                    modified:   index.html
+                    modified:   style.css
+            
+            no changes added to commit (use "git add" and/or "git commit -a")
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git add -A
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is up to date with 'origin/master'.
+            
+            Changes to be committed:
+              (use "git restore --staged <file>..." to unstage)
+                    modified:   index.html
+                    modified:   style.css
+            
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git commit -m "fixed img, added more content"
+            [master 9f38ee5] fixed img, added more content
+             2 files changed, 27 insertions(+), 3 deletions(-)
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is ahead of 'origin/master' by 1 commit.
+              (use "git push" to publish your local commits)
+            
+            nothing to commit, working tree clean
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git push
+            Enumerating objects: 7, done.
+            Counting objects: 100% (7/7), done.
+            Delta compression using up to 4 threads
+            Compressing objects: 100% (4/4), done.
+            Writing objects: 100% (4/4), 1.09 KiB | 560.00 KiB/s, done.
+            Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+            remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+            To https://github.com/fruktlunch/myGitSite.git
+               a0b65e5..9f38ee5  master -> master
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is up to date with 'origin/master'.
+            
+            Changes not staged for commit:
+              (use "git add <file>..." to update what will be committed)
+              (use "git restore <file>..." to discard changes in working directory)
+                    modified:   style.css
+            
+            no changes added to commit (use "git add" and/or "git commit -a")
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git add -A
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is up to date with 'origin/master'.
+            
+            Changes to be committed:
+              (use "git restore --staged <file>..." to unstage)
+                    modified:   style.css
+            
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git commit -m "added borders, changed colors"
+            [master e52bb86] added borders, changed colors
+             1 file changed, 17 insertions(+), 13 deletions(-)
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is ahead of 'origin/master' by 1 commit.
+              (use "git push" to publish your local commits)
+            
+            nothing to commit, working tree clean
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git push
+            Enumerating objects: 5, done.
+            Counting objects: 100% (5/5), done.
+            Delta compression using up to 4 threads
+            Compressing objects: 100% (3/3), done.
+            Writing objects: 100% (3/3), 534 bytes | 534.00 KiB/s, done.
+            Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+            remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+            To https://github.com/fruktlunch/myGitSite.git
+               9f38ee5..e52bb86  master -> master
+            
+            C:\Users\Simon\Documents\Coding\myGitSite>git status
+            On branch master
+            Your branch is up to date with 'origin/master'.</p>
+    </div>
+    
+</body>
+</html>

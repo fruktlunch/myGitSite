@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    background-image: url(pics/music-nl.JPG);
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    text-align:justify;
+    overflow: hidden;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    height: 40px;
+
+    color: rgb(211, 18, 179);
+    background-color: black;
+    border-top: solid 2px  rgb(211, 18, 179);
+    border-bottom: solid 2px rgb(211, 18, 179);
+}
+
+header li {
+    display: table-cell;
+    list-style: none;
+    width: 100%;
+}
+
+header li a {
+    color: rgb(211, 18, 179);
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 0px;
+  }
+
+.container {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.main-content {
+    border-left: solid 1px rgb(211, 18, 179);
+    border-right: solid 1px rgb(211, 18, 179);
+    margin: 20px;
+    margin-left: 32px;
+}
+
+.aside {
+    width: 20%;
+    padding-top: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+p {
+    color: whitesmoke;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.aside h3 {
+    margin-top: 30px;
+    margin-left: auto;
+justify-content: center;}
+
+h1 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: rgb(211, 18, 179);
+    justify-content: center;
+    width: 100%;
+    margin-top: 60px;    
+    text-decoration: underline;
+}
+
+h3 {
+    color: rgb(211, 18, 179);
+    padding: 3px;
+    margin: 3px;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 8px;
+  border-top: solid 2px  rgb(211, 18, 179);
+  border-bottom: solid 2px rgb(211, 18, 179);
+}
+footer a {
+    color: rgb(211, 18, 179);
+    text-decoration: none;
+}

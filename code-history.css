@@ -6,14 +6,13 @@ body {
 header {
     
     position: fixed;
-    text-align:justify;
+    text-align:left;
     overflow: hidden;
     max-width: 100%;
     top: 0;
     left: 0;
     z-index: 9999;
     height: 40px;
-
     color: rgb(211, 18, 179);
     background-color: black;
     border-top: solid 2px  rgb(211, 18, 179);
@@ -81,7 +80,7 @@ pre {
  }
 
 h1 {
-    color: white;
+    color: rgb(211, 18, 179);
     padding-left: 10px;
 }
 p {

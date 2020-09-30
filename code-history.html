@@ -645,6 +645,77 @@ Fast-forward
 
 C:\Users\Adam\Documents\Coding\myGitSite>
 
+Microsoft Windows [Version 10.0.19041.508]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\Adam>cd Documents
+
+C:\Users\Adam\Documents>cd Coding
+
+C:\Users\Adam\Documents\Coding>cd myGitSite
+
+C:\Users\Adam\Documents\Coding\myGitSite>git pull
+remote: Enumerating objects: 27, done.
+remote: Counting objects: 100% (27/27), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 22 (delta 15), reused 17 (delta 10), pack-reused 0
+Unpacking objects: 100% (22/22), 4.71 KiB | 49.00 KiB/s, done.
+From https://github.com/fruktlunch/myGitSite
+   fd95803..db6359f  master     -> origin/master
+Updating fd95803..db6359f
+Fast-forward
+ code-history.css  |  48 ++++++++------
+ code-history.html | 188 ++++++++++++++++++++++++++++++++++++++++++++++++++----
+ index.html        |  30 ++++++---
+ style.css         |  70 ++++++++++----------
+ 4 files changed, 263 insertions(+), 73 deletions(-)
+
+C:\Users\Adam\Documents\Coding\myGitSite>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   code-history.html
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dnd.css
+        dnd.html
+        music.css
+        music.html
+        pics/dm-station.jpg
+        pics/music-nl.JPG
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Adam\Documents\Coding\myGitSite>git add -A
+
+C:\Users\Adam\Documents\Coding\myGitSite>git commit -m "Added dnd and musicpage, changed viewport like stack overflow"
+[master 58a94cc] Added dnd and musicpage, changed viewport like stack overflow
+ 8 files changed, 315 insertions(+), 8 deletions(-)
+ create mode 100644 dnd.css
+ create mode 100644 dnd.html
+ create mode 100644 music.css
+ create mode 100644 music.html
+ create mode 100644 pics/dm-station.jpg
+ create mode 100644 pics/music-nl.JPG
+
+C:\Users\Adam\Documents\Coding\myGitSite>git push
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 1.52 MiB | 1.49 MiB/s, done.
+Total 11 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), completed with 2 local objects.
+To https://github.com/fruktlunch/myGitSite.git
+   db6359f..58a94cc  master -> master
+
+C:\Users\Adam\Documents\Coding\myGitSite>
+
           </p>
           </pre>
 

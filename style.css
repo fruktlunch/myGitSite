@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     background-image: url(pics/selfie-ny.jpg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(pics/selfie-ny.jpg);
     background-position-x: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -66,7 +67,7 @@ p {
 }
 
 .aside h3 {
-    margin-top: 30px;
+    margin-top: 60px;
     margin-left: auto;
 justify-content: center;}
 
